@@ -39,6 +39,10 @@ function App() {
     }
   }, [content]);
 
+  useEffect(() => {
+    inputRef.current.focus();
+  }, []);
+
   // const injectImage = (imageNode) => {
   //   let prevValue = inputRef.current.textContent;
   //   let position = sessionStorage.getItem("caretPosition");

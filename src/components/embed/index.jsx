@@ -38,7 +38,7 @@ export default function Embed({ setShowModal, selection }) {
     // range.collapse();
     setShowModal(false);
 
-    //       const container = document.getElementById('myDiv');
+    // const container = document.getElementById('myDiv');
     // const selection = window.getSelection();
     // const range = selection.getRangeAt(0);
     // const targetNode = document.createTextNode('Hello World!');
